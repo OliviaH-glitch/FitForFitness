@@ -1,23 +1,29 @@
-/*Main Tags*/
+@media screen and (min-width: 300px) {
 
+/*Main Tags*/
 body {
     background-color:rgb(152, 183, 255);
 }
+
 div {
     margin:5px;
 }
 
+.container {
+    margin:30px;
+    padding:30px;
+}
 /*Nav Stuff*/
 
 .NavContainer {
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     background-color:rgb(78, 123, 227);
     color:black;
     border:3px solid black;
     border-radius: 5px;
-    width:80%;
-    margin:10px 130px 0px  140px;
+    width:60%;
+    margin:10px 130px 0px  100px;
 }
 
 .NavContainer div {
@@ -35,10 +41,6 @@ div {
     color:rgb(241, 245, 255);
 }
 
-.container {
-    margin:30px;
-    padding:30px;
-}
 
 .card {
     margin:15px;
@@ -46,6 +48,26 @@ div {
 
 
 fieldset {
+    margin:10px 130px 0px  110px;
+    background-color: rgb(200, 214, 246);
+    padding:15px;
+    width:50%;
+    border:3px solid black;
+    border-radius: 15px;
+
+}
+
+}
+
+@media screen and (min-width: 760px) {
+    .NavContainer {
+    display:flex;
+    flex-direction: row;
+    width:80%;
+    margin:10px 130px 0px  140px;
+    }
+
+    fieldset {
     margin:10px 130px 0px  140px;
     background-color: rgb(200, 214, 246);
     padding:15px;
@@ -53,4 +75,5 @@ fieldset {
     border:3px solid black;
     border-radius: 15px;
 
+}
 }
