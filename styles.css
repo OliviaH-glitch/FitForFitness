@@ -1,3 +1,5 @@
+/*Main Tags*/
+
 body {
     background-color:rgb(152, 183, 255);
 }
@@ -5,16 +7,17 @@ div {
     margin:5px;
 }
 
-form {
-    margin:10px;
-}
+/*Nav Stuff*/
 
 .NavContainer {
     display:flex;
     flex-direction: row;
     background-color:rgb(78, 123, 227);
     color:black;
-    
+    border:3px solid black;
+    border-radius: 5px;
+    width:80%;
+    margin:10px 130px 0px  140px;
 }
 
 .NavContainer div {
@@ -24,18 +27,26 @@ form {
   color:black;
 }
 
-.NavContainer a{
-    color:rgb(213, 226, 255);
+.NavContainer a{ /*had to use this format in order to style the nav links*/
+    color:rgb(194, 213, 255);
+}
+
+.NavContainer a:hover {
+    color:rgb(241, 245, 255);
 }
 
 .container {
     margin:30px;
+    padding:30px;
+}
+
+.card {
+    margin:15px;
 }
 
 
-
 fieldset {
-    margin-left:40px;
+    margin:10px 130px 0px  140px;
     background-color: rgb(200, 214, 246);
     padding:15px;
     width:80%;
